@@ -6,7 +6,7 @@
 
 ## Core Concepts: Hoisting, Scope & Closure
 
-**2. What will be the output**
+**2. What will be the output** ⭐⭐
 ```js
 x = 10;
 console.log(x);
@@ -22,7 +22,7 @@ var x;
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**26. What will be the output**
+**26. What will be the output** ⭐⭐⭐
 ```js
 console.log(printName());
 function printName(){
@@ -39,7 +39,7 @@ function printName(){
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**27. What will be the output**
+**27. What will be the output** ⭐⭐⭐
 ```js
 console.log(printName());
 const printName = () => {
@@ -56,7 +56,7 @@ const printName = () => {
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**29. What will be the output**
+**29. What will be the output** ⭐⭐⭐
 ```js
 function hello(){
 console.log(name);
@@ -81,7 +81,7 @@ hello();
 
 ## Scope & Block Scoping
 
-**5. What will be the output**
+**5. What will be the output** ⭐⭐⭐
 ```js
 for(let i = 0; i < 10; i++){
     setTimeout(function(){
@@ -99,7 +99,7 @@ for(let i = 0; i < 10; i++){
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**4. What will be the output**
+**4. What will be the output** ⭐⭐⭐
 ```js
 for(var i = 0; i < 10; i++){
     setTimeout(function(){
@@ -117,7 +117,7 @@ for(var i = 0; i < 10; i++){
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**8. What will be the output**
+**8. What will be the output** ⭐⭐
 ```js
 let a = 10;
 if(true){
@@ -136,7 +136,7 @@ console.log(a, "outside");
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**39. What will be the output**
+**39. What will be the output** ⭐⭐
 ```js
 var a = 10;
 let a = 20;
@@ -156,7 +156,7 @@ console.log(a)
 
 ## Event Loop & Asynchronous Execution
 
-**6. What will be the output**
+**6. What will be the output** ⭐⭐
 ```js
 function hello() {
   console.log("1");
@@ -177,7 +177,7 @@ hello();
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**43. What will be the output**
+**43. What will be the output** ⭐⭐⭐
 ```js
 console.log('Start');
 
@@ -205,7 +205,7 @@ console.log('End');
 
 ## Reference Semantics & Memory
 
-**3. What will be the output**
+**3. What will be the output** ⭐⭐⭐
 ```js
 let a = { x: 1, y: 2 }
 let b = a;
@@ -223,7 +223,7 @@ console.log(b);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**41. What will be the output**
+**41. What will be the output** ⭐⭐⭐
 ```js
 function modify(obj) {
     obj.name = "Updated";
@@ -248,7 +248,7 @@ console.log(person.name);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**28. What will be the output (shallow copy of an object)**
+**28. What will be the output (shallow copy of an object)** ⭐⭐⭐
 ```js
 const userDetails = {
   firstName: "Surbhi",
@@ -282,7 +282,7 @@ console.log(cloneUserDetails.address.city);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**42. What will be the output**
+**42. What will be the output** ⭐⭐⭐
 ```js
 let a={ x:1, y: {alpha:10,beta:20} };
 let b = {...a};
@@ -307,7 +307,7 @@ console.log(a.y.alpha);
 
 ## Type Coercion & Equality
 
-**12. What will be the output**
+**12. What will be the output** ⭐⭐
 ```js
 console.log(5 < 6 < 7);
 ```
@@ -321,7 +321,7 @@ console.log(5 < 6 < 7);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**13. What will be the output**
+**13. What will be the output** ⭐⭐
 ```js
 console.log(7 > 6 > 5);
 ```
@@ -335,7 +335,7 @@ console.log(7 > 6 > 5);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**14. What will be the output**
+**14. What will be the output** ⭐⭐
 ```js
 console.log(0 == false);
 console.log(1 == true);
@@ -350,7 +350,7 @@ console.log(1 == true);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**15. What will be the output**
+**15. What will be the output** ⭐⭐
 ```js
 console.log([11, 2, 31] + [4, 5, 6]);
 ```
@@ -364,7 +364,7 @@ console.log([11, 2, 31] + [4, 5, 6]);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**24. What will be the output**
+**24. What will be the output** ⭐
 ```js
 console.log(10 + "5");
 console.log("5" + 10);
@@ -379,7 +379,7 @@ console.log("5" + 10);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**25. What will be the output**
+**25. What will be the output** ⭐
 ```js
 console.log(10 - "5");
 console.log("5" - 10);
@@ -394,7 +394,7 @@ console.log("5" - 10);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**52. What will be the output of this code?**
+**52. What will be the output of this code?** ⭐
 ```js
 let x = true + false; 
 let y = x + 1;
@@ -415,7 +415,7 @@ console.log(x, y);
 
 ## Object & Array Comparison
 
-**16. What will be the output**
+**16. What will be the output** ⭐⭐
 ```js
 console.log({} == {}); 
 console.log({} === {});
@@ -430,7 +430,7 @@ console.log({} === {});
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**30. What will be the output**
+**30. What will be the output** ⭐⭐
 ```js
 const arr1 = [1,2,3];
 const arr2 = [1,2,3];
@@ -450,7 +450,7 @@ console.log(arr1 == arr2);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**31. What will be the output**
+**31. What will be the output** ⭐⭐
 ```js
 const a = {x : 1};
 const b = {x : 1};
@@ -468,7 +468,7 @@ console.log(a.x === b.x)
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**45. What will be the output**
+**45. What will be the output** ⭐⭐
 ```js
 let x = ["a","b","c"];
 let y = ["a","b","c"];
@@ -490,7 +490,7 @@ console.log(z == x);
 
 **[:top: Scroll to Top](#javascript-interview-questions---critical-senior-level)**
 
-**50. What will be the output**
+**50. What will be the output** ⭐
 ```js
 let a = {};
 let b = { key: "abc" };
@@ -514,7 +514,7 @@ console.log(a[b]);
 
 ## `this` Context Binding
 
-**48. What will be the output**
+**48. What will be the output** ⭐⭐⭐
 ```js
 const user = {
     name: 'Aman Bhoria!',

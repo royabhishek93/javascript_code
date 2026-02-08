@@ -1,21 +1,39 @@
 # JavaScript output based interview questions 
 ---
 
-#### Click :star: if you like it!!
-Every contribution counts, regardless of its size. I value and appreciate the efforts of all contributors, from beginners to seasoned developers. Join me on this exciting journey of open-source collaboration. **Together, let's build something amazing!** :handshake:
+## ⭐ Support This Repository
+
+If you find these interview questions helpful, please star this repo! Your support motivates continued improvements.
 
 ---
 
-#### Contribution Guidelines
+## 🤝 Contributing Guidelines
 
-- :point_right: Please ensure that your contributions adhere to the coding style and guidelines of this project
-- :point_right: Include clear and concise commit messages for all your commits
-- :point_right: Provide a detailed description of your changes in the pull request.
-- :point_right: Be respectful and considerate towards other contributors.
+We welcome contributions from developers at all levels. Here's how to make a meaningful impact:
+
+### Code Quality
+- Follow the existing solution format and code style
+- Include clear problem statements, approach explanations, and complexity analysis
+- Ensure your code is well-commented and production-ready
+- Test your solutions thoroughly before submitting
+
+### Commit & Pull Request Standards
+- Write descriptive commit messages: `Add: [Problem #] - [Problem Name]` or `Fix: [Issue Description]`
+- Provide context in your PR description explaining what you've added or improved
+- Reference related issues or discussions when applicable
+- Keep commits atomic and focused on a single change
+
+### Community & Collaboration
+- Be respectful and constructive in code reviews and discussions
+- Help other contributors improve their solutions through feedback
+- Ask questions if something is unclear—no question is too basic
+- Celebrate others' contributions and learning progress
+
+**Remember:** Every contribution—whether it's a new solution, bug fix, or documentation improvement—helps make this resource better for everyone. Thank you for being part of this journey! 🚀
 
 ---
 
-**1. What will be the output**
+**1. What will be the output** ⭐⭐⭐
 ```js
 let arr = [1, 2, 3, 4, 5, -6, 7];
 arr.length = 0;
@@ -31,7 +49,7 @@ console.log(arr);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**2. What will be the output**
+**2. What will be the output** ⭐⭐⭐
 ```js
 x = 10;
 console.log(x);
@@ -47,7 +65,7 @@ var x;
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**3. What will be the output**
+**3. What will be the output** ⭐⭐⭐
 ```js
 let a = { x: 1, y: 2 }
 let b = a;
@@ -65,7 +83,7 @@ console.log(b);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**4. What will be the output**
+**4. What will be the output** ⭐⭐⭐
 ```js
 for(var i = 0; i < 10; i++){
     setTimeout(function(){
@@ -83,7 +101,7 @@ for(var i = 0; i < 10; i++){
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**5. What will be the output**
+**5. What will be the output** ⭐⭐⭐
 ```js
 for(let i = 0; i < 10; i++){
     setTimeout(function(){
@@ -101,7 +119,7 @@ for(let i = 0; i < 10; i++){
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**6. What will be the output**
+**6. What will be the output** ⭐⭐⭐
 ```js
 function hello() {
   console.log("1");
@@ -122,7 +140,7 @@ hello();
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**7. What will be the output**
+**7. What will be the output** ⭐⭐⭐
 ```js
 let f = "8";
 let a = 1;
@@ -138,7 +156,7 @@ console.log((+f)+a+1);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**8. What will be the output**
+**8. What will be the output** ⭐⭐⭐
 ```js
 let a = 10;
 if(true){
@@ -157,7 +175,7 @@ console.log(a, "outside");
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**9. What will be the output**
+**9. What will be the output** ⭐⭐⭐
 ```js
 var a = "xyz";
 var a = "pqr";
@@ -173,7 +191,7 @@ console.log(a)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**10. What will be the output**
+**10. What will be the output** ⭐⭐⭐
 ```js
 const arr1 = [1, 2, 3, 4];
 const arr2 = [6, 7, 5];
@@ -190,7 +208,7 @@ console.log(result);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**11. What will be the output**
+**11. What will be the output** ⭐⭐⭐
 ```js
 const person1 = { name: 'xyz', age: 21 };
 const person2 = { city: 'abc', ...person1 };
@@ -206,7 +224,7 @@ console.log(person2);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**12. What will be the output**
+**12. What will be the output** ⭐⭐⭐
 ```js
 console.log(5 < 6 < 7);
 ```
@@ -220,7 +238,7 @@ console.log(5 < 6 < 7);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**13. What will be the output**
+**13. What will be the output** ⭐⭐⭐
 ```js
 console.log(7 > 6 > 5);
 ```
@@ -234,7 +252,7 @@ console.log(7 > 6 > 5);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**14. What will be the output**
+**14. What will be the output** ⭐⭐⭐
 ```js
 console.log(0 == false);
 console.log(1 == true);
@@ -249,7 +267,7 @@ console.log(1 == true);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**15. What will be the output**
+**15. What will be the output** ⭐⭐⭐
 ```js
 console.log([11, 2, 31] + [4, 5, 6]);
 ```
@@ -263,7 +281,7 @@ console.log([11, 2, 31] + [4, 5, 6]);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**16. What will be the output**
+**16. What will be the output** ⭐⭐⭐
 ```js
 console.log({} == {}); 
 console.log({} === {});
@@ -278,7 +296,7 @@ console.log({} === {});
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**17. What will be the output**
+**17. What will be the output** ⭐⭐⭐
 ```js
 let x = 5;
 let y = x++;
@@ -295,7 +313,7 @@ console.log(x)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**18. What will be the output**
+**18. What will be the output** ⭐⭐
 ```js
 let x = 5;
 let y = ++x;
@@ -312,7 +330,7 @@ console.log(x)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**19. What will be the output**
+**19. What will be the output** ⭐⭐
 ```js
 console.log('apple'.split(''));
 ```
@@ -326,7 +344,7 @@ console.log('apple'.split(''));
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**20. What will be the output**
+**20. What will be the output** ⭐⭐
 ```js
 const arr = [2,3,5,2,8,10,5];
 console.log(arr.indexOf(5))
@@ -341,7 +359,7 @@ console.log(arr.indexOf(5))
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**21. What will be the output**
+**21. What will be the output** ⭐⭐
 ```js
 const array = [8, 18, 28, 38];
 const result = array.map(element => element + 2)
@@ -358,7 +376,7 @@ console.log(result);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**22. What will be the output**
+**22. What will be the output** ⭐⭐
 ```js
 function checkValue(value){
     var result = Array.isArray(value);
@@ -376,7 +394,7 @@ checkValue([1,2,3]);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**23. What will be the output**
+**23. What will be the output** ⭐⭐
 ```js
 function sum(a=5, b=7){
     return a+b;
@@ -393,7 +411,7 @@ console.log(sum(undefined, 20));
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**24. What will be the output**
+**24. What will be the output** ⭐⭐
 ```js
 console.log(10 + "5");
 console.log("5" + 10);
@@ -408,7 +426,7 @@ console.log("5" + 10);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**25. What will be the output**
+**25. What will be the output** ⭐⭐
 ```js
 console.log(10 - "5");
 console.log("5" - 10);
@@ -423,7 +441,7 @@ console.log("5" - 10);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**26. What will be the output**
+**26. What will be the output** ⭐⭐
 ```js
 console.log(printName());
 function printName(){
@@ -441,7 +459,7 @@ function printName(){
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
 
-**27. What will be the output**
+**27. What will be the output** ⭐⭐
 ```js
 console.log(printName());
 const printName = () => {
@@ -458,7 +476,7 @@ const printName = () => {
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**28. What will be the output (shallow copy of an object)**
+**28. What will be the output (shallow copy of an object)** ⭐⭐
 ```js
 const userDetails = {
   firstName: "Surbhi",
@@ -492,7 +510,7 @@ console.log(cloneUserDetails.address.city);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**29. What will be the output**
+**29. What will be the output** ⭐⭐
 ```js
 function hello(){
 console.log(name);
@@ -514,7 +532,7 @@ hello();
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
 
-**30. What will be the output**
+**30. What will be the output** ⭐⭐
 ```js
 const arr1 = [1,2,3];
 const arr2 = [1,2,3];
@@ -534,7 +552,7 @@ console.log(arr1 == arr2);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**31. What will be the output**
+**31. What will be the output** ⭐⭐
 ```js
 const a = {x : 1};
 const b = {x : 1};
@@ -552,7 +570,7 @@ console.log(a.x === b.x)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**32. What will be the output**
+**32. What will be the output** ⭐⭐
 ```js
 const arr = [10, -1, 2];
 arr.sort((a, b) => a - b);
@@ -568,7 +586,7 @@ console.log(arr);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**33. What will be the output**
+**33. What will be the output** ⭐⭐
 ```js
 const arr = [11, 0, '', false, 2, 1];
 const filtered = arr.filter(Boolean);
@@ -584,7 +602,7 @@ console.log(filtered);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**34. What will be the output**
+**34. What will be the output** ⭐⭐
 ```js
 var x = 0;
 var y = 10;
@@ -605,7 +623,7 @@ if(y){
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**35. What will be the output**
+**35. What will be the output** ⭐⭐
 ```js
 const obj = {
 var1: 1,
@@ -624,7 +642,7 @@ console.log(var1, var2);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**36. What will be the output**
+**36. What will be the output** ⭐
 ```js
 const user = { 
 name: "Surbhi dighe", 
@@ -645,7 +663,7 @@ console.log(name);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**37. What will be the output**
+**37. What will be the output** ⭐
 ```js
 const person = {
   firstName: 'Surbhi',
@@ -663,7 +681,7 @@ console.log(lastName);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**38. What will be the output**
+**38. What will be the output** ⭐
 ```js
 const person = {
   firstName: 'Surbhi',
@@ -681,7 +699,7 @@ console.log(firstName);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**39. What will be the output**
+**39. What will be the output** ⭐
 ```js
 var a = 10;
 let a = 20;
@@ -697,7 +715,7 @@ console.log(a)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**40. What will be the output**
+**40. What will be the output** ⭐
 ```js
 const arr = ["A","B","C","D","E"]
 console.log(Object.keys(arr)); 
@@ -712,7 +730,7 @@ console.log(Object.keys(arr));
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**41. What will be the output**
+**41. What will be the output** ⭐
 ```js
 function modify(obj) {
     obj.name = "Updated";
@@ -738,7 +756,7 @@ console.log(person.name);
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
 
-**42. What will be the output**
+**42. What will be the output** ⭐
 ```js
 let a={ x:1, y: {alpha:10,beta:20} };
 let b = {...a};
@@ -760,7 +778,7 @@ console.log(a.y.alpha);
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
 
-**43. What will be the output**
+**43. What will be the output** ⭐
 ```js
 console.log('Start');
 
@@ -784,7 +802,7 @@ console.log('End');
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**44. What will be the output**
+**44. What will be the output** ⭐
 ```js
 var array = [1,2,3,4,5];
 delete array[2];
@@ -800,7 +818,7 @@ console.log(array.length);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**45. What will be the output**
+**45. What will be the output** ⭐
 ```js
 let x = ["a","b","c"];
 let y = ["a","b","c"];
@@ -822,7 +840,7 @@ console.log(z == x);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**46. What will be the output**
+**46. What will be the output** ⭐
 ```js
 let x; 
 console.log(x);
@@ -843,7 +861,7 @@ console.log(x);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**47. What will be the output**
+**47. What will be the output** ⭐
 ```js
 let text;
 switch (1) {
@@ -870,7 +888,7 @@ console.log(text);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**48. What will be the output**
+**48. What will be the output** ⭐
 ```js
 const user = {
     name: 'Aman Bhoria!',
@@ -890,7 +908,7 @@ setTimeout(user.logMessage, 1000);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**49. What will be the output**
+**49. What will be the output** ⭐
 ```js
 const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 3, c: 4 };
@@ -908,7 +926,7 @@ console.log(finalObj);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**50. What will be the output**
+**50. What will be the output** ⭐
 ```js
 let a = {};
 let b = { key: "abc" };
@@ -928,7 +946,7 @@ console.log(a[b]);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**51. What will be the output of this code?**
+**51. What will be the output of this code?** ⭐
 ```js
 function printName(firstName, lastName) {
     firstName = "Aman";
@@ -949,7 +967,7 @@ console.log(name)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**52. What will be the output of this code?**
+**52. What will be the output of this code?** ⭐
 ```js
 let x = true + false; 
 let y = x + 1;

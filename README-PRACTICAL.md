@@ -6,7 +6,7 @@
 
 ## Variable Declaration & Scope
 
-**9. What will be the output**
+**9. What will be the output** ⭐
 ```js
 var a = "xyz";
 var a = "pqr";
@@ -22,7 +22,7 @@ console.log(a)
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**46. What will be the output**
+**46. What will be the output** ⭐
 ```js
 let x; 
 console.log(x);
@@ -47,7 +47,7 @@ console.log(x);
 
 ## Array Spread & Spread Operator
 
-**10. What will be the output**
+**10. What will be the output** ⭐⭐⭐
 ```js
 const arr1 = [1, 2, 3, 4];
 const arr2 = [6, 7, 5];
@@ -64,7 +64,7 @@ console.log(result);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**11. What will be the output**
+**11. What will be the output** ⭐⭐⭐
 ```js
 const person1 = { name: 'xyz', age: 21 };
 const person2 = { city: 'abc', ...person1 };
@@ -80,7 +80,7 @@ console.log(person2);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**1. What will be the output**
+**1. What will be the output** ⭐
 ```js
 let arr = [1, 2, 3, 4, 5, -6, 7];
 arr.length = 0;
@@ -96,7 +96,7 @@ console.log(arr);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**44. What will be the output**
+**44. What will be the output** ⭐
 ```js
 var array = [1,2,3,4,5];
 delete array[2];
@@ -116,7 +116,7 @@ console.log(array.length);
 
 ## Array Methods (map, filter, indexOf)
 
-**19. What will be the output**
+**19. What will be the output** ⭐⭐
 ```js
 console.log('apple'.split(''));
 ```
@@ -130,7 +130,7 @@ console.log('apple'.split(''));
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**20. What will be the output**
+**20. What will be the output** ⭐⭐
 ```js
 const arr = [2,3,5,2,8,10,5];
 console.log(arr.indexOf(5))
@@ -145,7 +145,7 @@ console.log(arr.indexOf(5))
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**21. What will be the output**
+**21. What will be the output** ⭐⭐⭐
 ```js
 const array = [8, 18, 28, 38];
 const result = array.map(element => element + 2)
@@ -162,7 +162,7 @@ console.log(result);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**33. What will be the output**
+**33. What will be the output** ⭐⭐
 ```js
 const arr = [11, 0, '', false, 2, 1];
 const filtered = arr.filter(Boolean);
@@ -178,7 +178,7 @@ console.log(filtered);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**32. What will be the output**
+**32. What will be the output** ⭐⭐
 ```js
 const arr = [10, -1, 2];
 arr.sort((a, b) => a - b);
@@ -194,7 +194,7 @@ console.log(arr);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**22. What will be the output**
+**22. What will be the output** ⭐⭐
 ```js
 function checkValue(value){
     var result = Array.isArray(value);
@@ -212,7 +212,7 @@ checkValue([1,2,3]);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**40. What will be the output**
+**40. What will be the output** ⭐⭐
 ```js
 const arr = ["A","B","C","D","E"]
 console.log(Object.keys(arr)); 
@@ -231,7 +231,7 @@ console.log(Object.keys(arr));
 
 ## Destructuring (Modern ES6+)
 
-**35. What will be the output**
+**35. What will be the output** ⭐⭐⭐
 ```js
 const obj = {
 var1: 1,
@@ -250,7 +250,7 @@ console.log(var1, var2);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**36. What will be the output**
+**36. What will be the output** ⭐⭐⭐
 ```js
 const user = { 
 name: "Surbhi dighe", 
@@ -271,7 +271,7 @@ console.log(name);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**37. What will be the output**
+**37. What will be the output** ⭐⭐⭐
 ```js
 const person = {
   firstName: 'Surbhi',
@@ -289,7 +289,7 @@ console.log(lastName);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**38. What will be the output**
+**38. What will be the output** ⭐⭐⭐
 ```js
 const person = {
   firstName: 'Surbhi',
@@ -311,7 +311,7 @@ console.log(firstName);
 
 ## Operators & Type Conversion
 
-**7. What will be the output**
+**7. What will be the output** ⭐
 ```js
 let f = "8";
 let a = 1;
@@ -327,7 +327,7 @@ console.log((+f)+a+1);
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**17. What will be the output**
+**17. What will be the output** ⭐⭐
 ```js
 let x = 5;
 let y = x++;
@@ -344,7 +344,7 @@ console.log(x)
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**18. What will be the output**
+**18. What will be the output** ⭐⭐
 ```js
 let x = 5;
 let y = ++x;
@@ -361,7 +361,7 @@ console.log(x)
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**34. What will be the output**
+**34. What will be the output** ⭐
 ```js
 var x = 0;
 var y = 10;
@@ -386,7 +386,7 @@ if(y){
 
 ## Default Parameters & Function Features
 
-**23. What will be the output**
+**23. What will be the output** ⭐⭐
 ```js
 function sum(a=5, b=7){
     return a+b;
@@ -403,7 +403,7 @@ console.log(sum(undefined, 20));
 
 **[:top: Scroll to Top](#javascript-interview-questions---practical-intermediate-to-senior)**
 
-**51. What will be the output of this code?**
+**51. What will be the output of this code?** ⭐
 ```js
 function printName(firstName, lastName) {
     firstName = "Aman";
@@ -428,7 +428,7 @@ console.log(name)
 
 ## Object Methods & Merging
 
-**49. What will be the output**
+**49. What will be the output** ⭐⭐⭐
 ```js
 const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 3, c: 4 };
@@ -450,7 +450,7 @@ console.log(finalObj);
 
 ## Control Flow
 
-**47. What will be the output**
+**47. What will be the output** ⭐⭐
 ```js
 let text;
 switch (1) {
